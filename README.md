@@ -140,7 +140,14 @@ distributed-rate-limiter/
 
 ## Quick Start
 
-### 1. Run via Docker Compose
+### 1. Clone & Configure
+```bash
+Clone the repo using git
+cd API-Rate-Limiter
+cp .env.example .env
+```
+
+### 2. Run via Docker Compose
 
 Start both the FastAPI service and an isolated Redis container:
 
